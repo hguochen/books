@@ -1,5 +1,3 @@
-# Effective Java
-
 ## Static factory methods instead of Constructors
 Traditionally we use a public constructor to allow the client to obtain an instance of ta object. Alternatively, we can provide a public static factory method.
 
@@ -24,7 +22,3 @@ Having a static factory method has the following benefits:
 3. static factory methods allows you to do instance-control of target classes. This is especially useful for singleton classes or noninstantiable classes. It can allow guarantee that no 2 instances are equal. 
 
 4. in a static factory, the class of the returned object need not exist when the class containing the method is written.
-
-## Use a builder when faced with many constructor parameters
-
-Refer to `NutritionFacts.java` for example.
